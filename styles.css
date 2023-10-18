@@ -1,0 +1,495 @@
+/* Styling my resume */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color:rgb(14, 13, 13);
+    font-family: 'Rubik', sans-serif;
+    margin: 10% 10%;    
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    position: relative;
+    width: 80vw;
+    min-height: 100%;
+    background-color: rgb(119, 113, 116);
+    border-radius: 3px;
+}
+
+.description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(139, 32, 91);
+    font-weight: bolder;
+}
+
+.profile-img img {
+    width: 25vw;
+    border-radius: 12.5vw;
+    padding: 2vw;
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10vw;
+}
+
+.button-1 {
+    background-color: rgb(99, 98, 98);
+    border: none;
+    margin-top: 3vw;
+    margin-right: 20px;
+    padding: 2vw 2.8vw;
+    border-radius: 6px;
+    color: rgb(20, 19, 19);
+    box-shadow: 1px 3px 6px rgb(45, 45, 45);
+}
+
+.button-1:hover {
+    cursor: pointer;
+    background-color: rgb(230, 231, 222);
+    box-shadow: none;
+}
+
+.button-2 {
+    background-color: transparent;
+    border: 1px solid rgb(10, 10, 10);
+    margin-top: 3vw;
+    padding: 1.9vw 2.8vw;
+    border-radius: 6px;
+    color: rgb(10, 10, 10);
+    box-shadow: 1px 3px 8px rgb(33, 33, 33);
+}
+
+.button-2:hover {
+    cursor: pointer;
+    background-color: rgb(233, 230, 230);
+    color: rgb(6, 54, 97);
+}
+
+.container2 {
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: center;
+    background-color: rgb(107, 67, 67);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(43, 42, 42);
+    margin: 2vw;
+}
+
+.about {
+    width: 40%;
+}
+
+.my-information {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 2vw 7vw;
+}
+
+.information p, .information-1 p {
+    padding: 1vw 2vw;
+    
+}
+
+.age, .email, .phone, .address {
+    font-weight: 900;
+    color: rgb(17, 16, 17);
+}
+
+.about h2 {
+    padding-bottom: 2vw;
+}
+
+.professional-skills h2, .projects h2 {
+    padding: 2vw 4vw;
+    border-top: 0.7px solid rgb(16, 16, 16);
+}
+
+.project-name h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 4px; 
+} 
+
+.project-name p {
+    margin: 2vw 10vw;
+}
+
+.worked-projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+.worked-projects img {
+    width: 40%;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.worked-projects img:hover {
+    box-shadow: 1px 3px 14px rgb(141, 108, 108);
+}
+
+.text {
+    padding: 8px 8px;
+}
+
+.html, .css, .javascript, .python, .c, .canva {
+    width: 30vw;
+    height: 20px;
+}
+
+.html {
+    background: linear-gradient(to right, rgb(113, 38, 79) 0%, rgb(175, 68, 122) 86%, rgb(28, 26, 26) 86%, rgb(28, 26, 26) 100%);
+  }
+.css {
+    background: linear-gradient(to right, rgb(95, 24, 66) 0%, rgb(185, 70, 141) 81%, rgb(28, 26, 26) 81%, rgb(28, 26, 26) 100%);
+  }
+.javascript {
+    background: linear-gradient(to right, rgb(113, 38, 94) 0%, rgb(113, 38, 88) 58%, rgb(28, 26, 26) 58%, rgb(28, 26, 26) 100%);
+  }
+.python {
+    background: linear-gradient(to right, rgb(113, 38, 79) 0%, rgb(204, 74, 154) 68%, rgb(28, 26, 26) 68%, rgb(28, 26, 26) 100%);
+  }
+.c {
+    background: linear-gradient(to right, rgb(113, 38, 79) 0%, rgb(218, 78, 171) 49%, rgb(28, 26, 26) 49%, rgb(28, 26, 26) 100%);
+  }
+.canva {
+    background: linear-gradient(to right, rgb(113, 38, 97) 0%, rgb(194, 76, 158) 56%, rgb(28, 26, 26) 56%, rgb(28, 26, 26) 100%);
+  }
+
+.languages {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw 0; 
+}
+
+.experience h2, .education h2, .contacts{
+    border-top: 0.7px solid rgb(97, 4, 4);
+    padding: 2vw 4vw;
+}
+
+.front-end1, .front-end2, .university, .highschool {
+    padding: 0 4vw;
+    border: 0.5px solid rgb(165, 42, 128);
+    border-radius: 3px;
+    margin: 2vw 4vw;
+    padding: 2vw;
+}
+
+.front-end1, .front-end2, .university, .highschool {
+    transition: transform 0,3s ease;
+}
+.front-end1:hover, .front-end2:hover, .university:hover, .highschool:hover {
+    transform: translateX(10px);
+    border: none;
+    box-shadow: 1px 2px 4px rgb(173, 52, 127);
+}
+
+.degree, .diploma {
+    width: 40%;
+}
+
+.paragraph {
+    width: 60%;
+}
+.paragraph p {
+    padding: 5px;
+}
+
+.university, .highschool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form {
+    padding: 1vw 2vw;
+    width: 40%;
+}
+
+#name, #email {
+    width: 100%;
+    height: 50px;
+    display: flex;
+   
+}
+
+#message {
+    width: 100%;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-top: 3vw;
+}
+
+.submitting {
+    background-color: transparent;
+    border: 1px solid rgb(209, 200, 200);
+    margin-top: 3vw;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: rgb(219, 204, 204);
+    box-shadow: 1px 3px 8px rgb(33, 33, 33);
+}
+
+.submitting:hover {
+    cursor: pointer;
+    background-color: rgb(247, 239, 239);
+    color: rgb(6, 54, 97);
+}
+
+.back-top  {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 3vw;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: white;
+}
+
+.top:hover {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: rgb(6, 54, 97);
+    box-shadow: 1px 3px 8px rgb(33, 33, 33);
+    cursor: pointer;
+}
+
+.contact-inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address h4 {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.socials small {
+    margin: 0 10px;
+    color: rgb(240, 231, 231);
+    margin-top: 50px;
+}
+
+.socials img {
+    width: 3vw;
+    display: flex;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 4px 4px;
+}
+
+.socials img:hover {
+    cursor: pointer;
+    background-color: rgb(195, 198, 201);
+    border-radius: 5px;
+    padding: 2px 2px;
+    
+}
+
+.socials li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: rgb(132, 129, 129);
+    border-radius: 5px;
+    margin-bottom: 60px;
+    
+}
+  
+
+@media (max-width: 918px) {
+    .profile-img {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        margin-top: 5%;
+    }
+
+    .names {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .names h1 {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 876px) {
+    .profile-img img {
+        margin-top: 10%;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .my-information {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:795px) {
+
+    .worked-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .worked-projects img {
+        padding-bottom: 4vw;
+        width: 100%;
+    }
+
+    .profile-img img {
+        width: 40%;
+        border-radius: 20vw;
+        padding: 2vw;
+    }
+    .about h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .html, .css, .javascript, .python, .c, .canva {
+        width: 70vw;
+        height: 20px;
+    }
+
+    .professional-skills, .experience, .education, .contacts {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .university, .highschool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .degree, .paragraph, .diploma {
+        width: 100%;
+    }
+
+    .contact-inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        padding: 1vw 2vw;
+        width: 100%;
+    }
+
+    .submitting {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .address {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #message {
+        margin-top: 5vw;
+    }
+}
+
+@media (max-width: 421px) {
+    .profile-img img {
+        width: 50vw;
+        border-radius: 25vw;
+        padding: 2vw;
+    }
+
+    .worked-projects img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .names h2 {
+        font-size: large;
+    }
+
+    .description {
+        font-size: large;
+    }
+
+    .container2 {
+        border-radius: 10px;
+    }
+
+    .container2, .professional-skills, .experience, .front-end1, .front-end2, .education, .university, .highschool, .contact-inputs, .back-top {
+        font-size: small;
+    }
+
+    .back-top {
+        padding: 2px 8px;
+    }
+
+    .socials img {
+        width: 3vw;
+    }
+}
+#words{
+    padding-top:2rem;
+}
