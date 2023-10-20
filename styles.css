@@ -19,7 +19,7 @@ body {
     margin: 10% 10%;    
 }
 
-.section1 {
+.section1 {           
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@ body {
     padding: 2vw 4vw;
     display: flex;
     align-items: center;
-    background-color: rgb(107, 67, 67);
+    background-color: rgb(131, 76, 76);
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(43, 42, 42);
     margin: 2vw;
@@ -254,7 +254,7 @@ body {
     margin-top: 3vw;
     padding: 15px 20px;
     border-radius: 6px;
-    color: rgb(219, 204, 204);
+    color: rgb(15, 14, 14);
     box-shadow: 1px 3px 8px rgb(33, 33, 33);
 }
 
@@ -275,7 +275,7 @@ body {
     margin-top: 3vw;
     padding: 15px 20px;
     border-radius: 6px;
-    color: white;
+    color: rgb(20, 19, 19);
 }
 
 .top:hover {
@@ -304,7 +304,7 @@ body {
 
 .socials small {
     margin: 0 10px;
-    color: rgb(240, 231, 231);
+    color: rgb(20, 20, 20);
     margin-top: 50px;
 }
 
